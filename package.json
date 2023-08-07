@@ -1,7 +1,7 @@
 {
-  "name": "belajar-nodejs-unit-test",
+  "name": "belajar-nodejs-logging",
   "version": "1.0.0",
-  "description": "Belajar NodeJS Unit Test menggunakan library JEST",
+  "description": "Belajar NodeJS Logging menggunakan library Winston",
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
@@ -28,6 +28,10 @@
   },
   "author": "Hanif Arif",
   "license": "ISC",
+  "dependencies": {
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.22.9",
     "babel-jest": "^29.6.1",
